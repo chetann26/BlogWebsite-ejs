@@ -10,6 +10,9 @@
     <p><%=posts[i].body.substring(0,100) + "..."%>
         <a href="/post/<%=posts[i].title %>">Read More</a>
     </p>
-    
 <%}%>
+<div>
+      <br>
+    <a href="/compose" class="btn btn-primary">Compose</a>
+  </div>
 <%- include('footer.ejs') %>
